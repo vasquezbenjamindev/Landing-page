@@ -1,0 +1,104 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+.header1w {
+    height: 90vh;
+    background: url(../imagenes/2.webp);
+    background-size: 100% 100%;
+    padding: 100px;    
+}
+#brr {
+    padding: 5px 15px;
+    border: 1 solid rgb(88, 73, 49);
+    background-color: rgb(88, 73, 49);
+    color: gold;
+    font-family: "Datatype", monospace;
+    width: 165px;
+    font-size: 0.8rem;
+}
+.titulo {
+    color: rgb(255, 255, 255);
+    width: 450px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3.5rem;
+}
+.texto { 
+    color: white;
+    width: 450px;
+    padding: 10px 0 ;
+
+}
+.botton {
+    display: flex;
+    padding: 5px;
+    background: white;
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+    width: 625px;
+    font-family: "Datatype";
+
+}
+
+
+.buscar {
+   
+    width: 175px;
+    text-align: left;
+    padding-left: 15px;
+}
+.l1 {
+    color: rgb(85, 83, 83);
+    font-size: 0.5rem;
+
+}
+.l2 { 
+    color: rgb(160, 158, 158);
+    font-size: 0.8rem;
+}
+.tot {
+    width: 175px;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    text-align: left;
+    padding-left: 15px;
+}
+.l3 {
+    color: rgb(85, 85, 85);
+    font-size: 0.5rem;
+}
+.l4 {
+    color: rgb(0, 3, 19); 
+    font-size: 0.8rem;  
+}
+.patapim {
+    display: flex;
+    padding: 7px;
+}
+.tt {
+    width: 175px;
+    text-align: left;
+    padding-left: 15px;
+    color: rgb(183, 180, 184);
+}
+.l5 {
+    color: rgb(85, 84, 83);
+    font-size: 0.5rem;
+}
+.l6 {
+    color: rgb(183, 180, 184);
+    font-size: 0.8rem;  
+
+}
+.tet {
+    padding: 10px;
+    width: 80px;
+    background: rgb(68, 31, 7);
+    color: white;
+    border-radius: 5px;
+}
