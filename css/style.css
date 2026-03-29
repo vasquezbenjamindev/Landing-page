@@ -1,10 +1,10 @@
-
+html {
+    font-family: "Geologica";
+}
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
-
 }
 .header1w {
     height: 90vh;
@@ -31,7 +31,6 @@
     color: white;
     width: 450px;
     padding: 10px 0 ;
-
 }
 .botton {
     display: flex;
@@ -40,14 +39,10 @@
     border-radius: 5px;
     text-align: center;
     align-items: center;
-    width: 625px;
+    width: 660px;
     font-family: "Datatype";
-
 }
-
-
 .buscar {
-   
     width: 175px;
     text-align: left;
     padding-left: 15px;
@@ -55,7 +50,6 @@
 .l1 {
     color: rgb(85, 83, 83);
     font-size: 0.5rem;
-
 }
 .l2 { 
     color: rgb(160, 158, 158);
@@ -93,12 +87,295 @@
 .l6 {
     color: rgb(183, 180, 184);
     font-size: 0.8rem;  
-
 }
+/*No me va a bajar puntos por los nombress de clases que le pongo?*/
 .tet {
     padding: 10px;
-    width: 80px;
+    width: 100px;
     background: rgb(68, 31, 7);
     color: white;
     border-radius: 5px;
+}
+.puntos {
+    display: flex;
+    padding: 90px 100px;
+    text-align: left;
+    width: 100%;
+    background: rgb(212, 212, 212);
+    align-items: flex-start;
+    gap: 20px;
+}
+#Foto1, #Foto2, #Foto3 {
+    width: 38px;
+    height: 38px;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    object-fit: cover;
+}
+.titulo1, .titulo2, .titulo3 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: rgb(30, 28, 25);
+    font-family: 'Geologica', sans-serif;
+}
+.puntouno, .puntodos, .puntotres {
+    padding: 20px;
+    width: 370px;
+}
+.parrafo-punto {
+    color: rgb(100, 97, 95);
+    font-size: 0.9rem;
+    line-height: 1.65;
+}
+.propiedades {
+    padding: 90px 100px;
+    background: rgb(248, 246, 243);
+}
+.propiedades-header {
+    margin-bottom: 45px;
+}
+/*Acabo de darrme cuenta que fue mala idea nombrar las clases asi*/
+.titulo-props {
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: rgb(20, 18, 15);
+    font-family: 'Geologica', sans-serif;
+}
+.jiji {
+    padding: 100px;
+}
+.titulo-jiji {
+    font-size: 3rem;
+}
+.jiji-1 {
+    display: flex;
+    background: white;
+    border-radius: 5px;
+}
+.jiji-p1 {
+    width: 85%;
+    text-align: left;
+    color: rgb(78, 78, 78);
+}
+.jiji-p2 {
+    text-align: right;
+    justify-content: right;
+    font-size: 0.6rem;
+    border-bottom: 1px solid black;
+    padding-bottom: 2px;
+}
+.jiji-main {
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+.jiji-mainl1 {
+    display: flex;
+    gap: 15px;
+}
+#jji-img {
+    height: auto;
+    width: 65%;
+}
+#jiji-img2 {
+    height: 70%;
+    width: 140%;
+}
+.jijimainl3 {
+    display: flex;
+    gap: 15px;
+}
+.main-pjiji, .jijiji, .s, .cc {
+    padding-bottom: 7px;
+    font-weight: 600;
+}
+.casa, .casa2, .cf, .sfd {
+    padding-bottom: 7px;
+    font-weight: 600;
+}
+.jiji-mainp, .jijiji2, .sc, .ccc, .casat, .casa3, .cf2, .sfd1 {
+    font-size: 0.5rem;
+    color: rgb(41, 41, 41);
+}
+.jiji-main22 {
+    width: 46%;
+}
+.jijimainl4 {
+    display: flex;
+    gap: 15px;
+}
+.jij img {
+    height: 350px;
+    width: auto;
+}
+#s23 {
+    height: 390px;
+    width: 450px;
+}
+.jijm2 {
+    display: flex;
+    gap: 15px;
+}
+.sf {
+    width: 54%;
+}
+.sff {
+    width: 30%;
+}
+.jijja {
+    display: flex;
+    flex-direction: column;
+}
+.mm {
+    display: flex;
+    padding: 100px;
+    text-align: left;
+    width: 100%;
+    background: rgb(32, 25, 59);
+    align-items: center;
+    justify-content: center;
+}
+#qw {
+    width: auto;
+    height: 50px;
+}
+.ll3 {
+    font-size: 3rem;
+    color: white;
+    width: 85%;
+}
+.llo4 {
+    color: white;
+    width: 60%;
+}
+#qw2, #qw3, #qw4, #qw5, #qw6 {
+    width: 15px;
+    height: 15px;
+}
+.kkk3 {
+    background-color: rgb(23, 23, 53);
+    padding: 25px;
+    width: 70%;
+    border-radius: 15px;
+}
+.rt {
+    display: flex;
+}
+#qw7 {
+    width: auto;
+    height: 80px;
+    border-radius: 15px;
+}
+.ss2 {
+    color: white;
+    font-style: italic;
+}
+.tyt {
+    padding: 20px;
+    color: white;
+}
+.yoy {
+    font-weight: bold;
+}
+.pp1 {
+    font-size: 0.7rem;
+}
+.pp2 {
+    display: flex;
+    justify-content: right;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-image: url(../imagenes/istockphoto-1392356345-612x612.jpg);
+    background-size: 100%;
+}
+.pp3 {
+    height: 500px;
+    background: rgba(255, 255, 255, 0.85);
+    width: 45%;
+    padding: 50px;
+    border-radius: 5px;
+}
+.pp4 {
+    font-size: 2.5rem;
+    padding-bottom: 5px;
+}
+.pp6 {
+    display: flex;
+}
+.pp9 {
+    display: flex;
+    border: 5px;
+    gap: 15px;
+    height: 2rem;
+}
+.pp10, .er1, .er8 {
+    background-color: rgb(209, 208, 208);
+    border-radius: 5px;
+    color: rgb(209, 208, 208);
+}
+.er8 {
+    height: 8rem;
+    width: 405px;
+}
+.pp7, .pp8, .er2, .er7 {
+    font-size: 0.5rem;
+    width: 50%;
+}
+.er9 {
+    display: flex;
+    background-color: rgb(32, 25, 59);
+    border-radius: 15px;
+    color: white;
+    height: 3rem;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.er3 {
+    display: flex;
+    background-color: rgb(226, 226, 226);
+    border-radius: 5px;
+    height: 2rem;
+    align-items: center;
+    padding: 10px;
+    width: 405px;
+}
+.er5 {
+    color: rgb(226, 226, 226);
+}
+.er6 {
+    color: rgb(160, 158, 158);
+    text-align: right;
+    justify-self: right;
+}
+.pop1 {
+    display: flex;
+    padding: 25px 50px 25px 50px;
+    background-color:  rgb(32, 25, 59);
+}
+.pop2 {
+    width: 10%;
+    font-weight: bold;
+    color: white;
+    padding-left: 30px;
+}
+.pop3 {
+    width: 15%;
+    color: rgb(112, 112, 153);
+}
+.pop4 {
+    width: 15%;
+    color: rgb(112, 112, 153);
+}
+.pop5 {
+    width: 15%;
+    color: rgb(112, 112, 153);
+}
+.pop6 {
+    width: 10%;
+    color: rgb(112, 112, 153);
+}
+.pop7 {
+    width: 35%;
+    color: rgb(255, 244, 96);
 }
